@@ -1,5 +1,5 @@
 import postcss from 'postcss';
-import uniqid from 'uniqid';
+import uniqid from './uniqid';
 
 export default postcss.plugin('postcss-filter-plugins', ({
     template = ({postcssPlugin}) => `Found duplicate plugin: ${postcssPlugin}`,
